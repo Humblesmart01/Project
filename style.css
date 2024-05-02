@@ -65,7 +65,6 @@ nav>a:hover{
 /* ----------------- MAIN BAR -------------- */
 
 
-
 main{
     padding: 10px 30px;
 } 
@@ -135,7 +134,7 @@ main{
     }
 }
 
-.firstButton, .firstButton>a{
+.firstButton , .firstButton > a{
     padding: 10px;
     background-color: rgb(63, 133, 63);
     text-decoration: none;
@@ -268,6 +267,7 @@ main{
 
 .Input-Info>input{
     background-color: transparent;
+    color: #fff;
     border: none;
     border-bottom: solid rgb(44, 42, 42);
     outline: none;
@@ -288,6 +288,17 @@ footer{
     text-align: center;
     padding: 20px;
     color: #808080;
+}
+
+hr{
+    border-color:  #080808;
+}
+
+.submitButton > a > input{
+    padding: 10px 20px;
+    background-color: rgb(63, 133, 63);
+    text-decoration: none;
+    color: white;
 }
 
 
