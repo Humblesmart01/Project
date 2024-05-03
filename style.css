@@ -426,6 +426,7 @@ main {
     max-width: 200px;
     height: auto; 
     padding: 5px;
+    border: solid rgb(17, 17, 17);  
 }
 
 .firstButton, .firstButton > a{
