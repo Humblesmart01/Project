@@ -264,7 +264,6 @@ main{
 .Input{
     display: flex;
     justify-content: space-evenly;
-    font-size: 16px;    
 }
 
 .Input-Info > input{
@@ -489,10 +488,6 @@ main {
 
 
 /* Get in Tourch section */ 
-.Input{
-    font-size: 8px;  
-}
-
 .Input-Info > input{
     padding: 5px;
     width: 80%;
