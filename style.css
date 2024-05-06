@@ -120,7 +120,7 @@ main{
     border-radius: 50%;
     background-color: transparent;
     padding: 15px;
-    border: solid rgb( 8, 8, 8 );  
+    border: solid rgb( 17, 17, 17 );  
     animation: zoomIn 4s ease forwards; 
     animation-delay: 2s; 
 }
@@ -134,7 +134,7 @@ main{
     }
 }
 
-.firstButton , .firstButton > a{
+.firstButton, .firstButton > a{
     padding: 10px;
     background-color: rgb(63, 133, 63);
     text-decoration: none;
@@ -323,8 +323,7 @@ hr{
 
 
 
-
-
+ /* --------------------- Mobile Responsiveness ----------------------- */
  @media (max-width:600px) {  
 
 
@@ -418,7 +417,6 @@ main {
 
 .My-Info > p > span {
     font-size: 20px;
-
 }
 
 .image {
@@ -426,7 +424,6 @@ main {
     max-width: 200px;
     height: auto; 
     padding: 5px;
-    border: solid rgb(17, 17, 17);  
 }
 
 .firstButton, .firstButton > a{
@@ -437,7 +434,6 @@ main {
 .secondButton, .secondButton > a{
     font-size: 12px;
     padding: 2px;
-    color: rgb(128, 118, 216);
 }
 
 
@@ -446,6 +442,7 @@ main {
     padding: 10px;
     font-size: 12px;
 }
+
 .About2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -499,6 +496,101 @@ main {
 textarea{
     width: 80%;
     padding: 2.5px;  
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+ /* --------------------- Tablet Responsiveness ----------------------- */
+ @media (max-width:900px) {  
+
+    
+/* ---------------Main bar----------- */
+
+
+/* Home section */
+.My-Info > h1 {
+    font-size: 38px; 
+}
+
+.My-Info > p > span {
+    font-size: 30px;
+}
+
+.image {
+    width: 100%;
+    max-width: 300px;
+    height: auto; 
+    padding: 5px;
+}
+
+.firstButton, .firstButton > a{
+    margin-top: 5px;
+    font-size: 17px;
+    padding: 5px;
+}
+
+.secondButton, .secondButton > a{
+    margin-top: 5px;
+    font-size: 17px;
+    padding: 5px;
+}
+
+
+/* About section */
+.About2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 20px;
+} 
+
+
+/* what i do section */
+.What-i-do-1 > .dev{
+    height: auto;
+}
+
+.dev > a{
+    font-size: 25px;
+}
+
+.dev-img{
+    width: 18%;
+}
+
+
+/* My Skills */
+.My-Skills{
+    margin: 5px 20px;
+}
+
+.skill > h3{
+    font-size: 35px;
+}
+
+.skill > p{
+    font-size: 18px;
+}
+
+
+/* Get in Tourch section */ 
+.Input-Info > input{
+    padding: 10px;
+    font-size: 16px;
+}
+
+textarea{
+    width: 70%;
+    padding: 5px;  
 }
 
 
