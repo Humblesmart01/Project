@@ -157,7 +157,6 @@ main{
 /* ----- About section ------ */
 .About1{
     text-align: center;
-    font-size: 18px;
     padding: 10px;
 }
 
@@ -179,8 +178,8 @@ main{
 }
 
 .image1{
-    height: 80px;
-    width: 80px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     padding: 5px;
     border: solid rgb(8, 4, 4);
@@ -287,6 +286,13 @@ textarea{
     padding: 5px;  
 }
 
+.submitButton > a > input{
+    padding: 10px 20px;
+    background-color: rgb(63, 133, 63);
+    text-decoration: none;
+    color: white;
+}
+
 footer{
     text-align: center;
     padding: 20px;
@@ -297,12 +303,6 @@ hr{
     border-color:  #080808;
 }
 
-.submitButton > a > input{
-    padding: 10px 20px;
-    background-color: rgb(63, 133, 63);
-    text-decoration: none;
-    color: white;
-}
 
 
 
@@ -370,13 +370,14 @@ header > h1{
     transition: all 0.3s ease-in;
     overflow-y: hidden;
     top: 50px;
-    left: 0px;
+    right: 0px;
     z-index: 100;
 }
 
 .nav-bar > a {
     display: block;
     width: 100%;
+    text-align: center;
 }
 
 #nav-check:not(:checked) ~ .nav-bar {
@@ -384,7 +385,8 @@ header > h1{
 }
 
 #nav-check:checked ~ .nav-bar {
-    height: calc(100vh - 50px);
+    height: calc(80vh - 50px);
+    width: 50%;
     overflow-y: auto;
 }
 
@@ -440,13 +442,16 @@ main {
 /* About section */
 .About1{
     padding: 10px;
-    font-size: 12px;
 }
 
 .About2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    font-size: 15px;
+} 
+
+.image1{
+    height:80px;
+    width: 80px;
 } 
 
 
@@ -490,7 +495,7 @@ main {
 
 .Input-Info > input{
     padding: 5px;
-    font-size: 10px;
+    width: 80%;
 }
 
 textarea{
@@ -519,7 +524,7 @@ textarea{
 
 /* Home section */
 .My-Info > h1 {
-    font-size: 38px; 
+    font-size: 40px; 
 }
 
 .My-Info > p > span {
@@ -528,7 +533,7 @@ textarea{
 
 .image {
     width: 100%;
-    max-width: 300px;
+    max-width: 330px;
     height: auto; 
     padding: 5px;
 }
@@ -553,6 +558,10 @@ textarea{
     font-size: 20px;
 } 
 
+.image1{
+    height: 100px;
+    width: 100px;
+} 
 
 /* what i do section */
 .What-i-do-1 > .dev{
@@ -564,7 +573,7 @@ textarea{
 }
 
 .dev-img{
-    width: 18%;
+    width: 20%;
 }
 
 
